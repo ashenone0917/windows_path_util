@@ -11,7 +11,7 @@ int main()
 {
 	std::shared_ptr<temp> t = std::make_shared<temp>();
 	t = std::make_shared<temp>();
-	auto current = GetPathFromCommandLine(std::wstring(L"C:\\Windows\\system32\\svchost.exe -k netsvcs"));
+	auto current = GetPathFromCommandLine(tstring(L"C:\\Windows\\system32\\svchost.exe -k netsvcs"));
 	std::wcout << current << std::endl;
 	return 0;
 }
