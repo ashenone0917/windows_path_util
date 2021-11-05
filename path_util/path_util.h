@@ -4,7 +4,7 @@
 
 using tstring = std::basic_string<TCHAR, std::char_traits<TCHAR>, std::allocator<TCHAR> >;
 
-//路径末尾不包含反斜杠(\\)
+//end not include '\\'
 tstring GetCurrentProcessPath();
 
 tstring GetUserDesktop();
